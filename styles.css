@@ -26,10 +26,7 @@
 #ease{
 	transition: all 4s ease-in;
 	border: 1px #f00 solid;
-
 }
-
-
 
 #ease-out{
 	transition: all 4s ease-out;
