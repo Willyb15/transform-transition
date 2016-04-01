@@ -1,2 +1,2 @@
 ## Basic application displaying CSS3 transform and transition properties.
-##Styled a .png if you have to know
+##Created elements and began to practice styling them with awesomeness
