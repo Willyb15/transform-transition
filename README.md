@@ -1,3 +1,59 @@
 ## Basic application displaying CSS3 transform and transition properties.
 ##Created elements and began to practice styling them with awesomeness
+###Code Example
+```css
+
+#timing{
+	position: relative;
+	width: 530px;
+	height: 530px;
+	border: 1px #bababa solid;
+	padding: 10px;
+}
+
+.transform-box{
+	font-size: 12px;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background-color: #ddd;
+	margin: 10px;
+	border: 1px #f00 solid;
+}
+
+#timing:hover .transform-box{
+	transform: rotate(360deg);
+	margin-left: 420px;
+	border-radius: 50%;
+}
+
+
+#ease{
+	transition: all 4s ease-in;
+	border: 1px #f00 solid;
+}
+
+#ease-out{
+	transition: all 4s ease-out;
+	border: 1px #f00 solid;
+
+}
+
+#ease-in-out{
+	transition: all 4s ease-in-out;
+	border: 1px #f00 solid;
+}
+
+#linear{
+	transition: all 4s linear;
+}
+
+#custom{
+	transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+}
+
+#awesome{
+	transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+}
+```
 ![alt text](ss.png "Description goes here")
